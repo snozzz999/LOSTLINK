@@ -1,0 +1,1582 @@
+/* ==========================================================
+   VU LostLink — AAA Professional Theme (Bootstrap Friendly)
+   - Modern tokens, accessible focus, refined components
+   - Drop-in replacement for assets/style.css
+   ========================================================== */
+
+/* ---------------------------
+   1) Design Tokens (Theme)
+---------------------------- */
+:root{
+  /* Brand */
+  --brand-900: #0c2a6d;     /* deep blue */
+  --brand-800: #123b8c;
+  --brand-700: #1848a5;
+  --brand-600: #1f57c2;
+  --brand-500: #2a6df6;
+
+  /* Neutrals */
+  --bg-0: #ffffff;
+  --bg-50: #f7f9fc;
+  --bg-100: #f0f4fa;
+  --bg-200: #e7edf7;
+
+  --text-900: #0f172a;
+  --text-700: #334155;
+  --text-600: #475569;
+  --text-500: #64748b;
+
+  --border: rgba(15, 23, 42, 0.12);
+  --border-strong: rgba(15, 23, 42, 0.18);
+
+  /* Feedback */
+  --success: #16a34a;
+  --warning: #f59e0b;
+  --danger:  #dc2626;
+  --info:    #0ea5e9;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.06);
+  --shadow-md: 0 8px 20px rgba(15, 23, 42, 0.10);
+  --shadow-lg: 0 18px 45px rgba(15, 23, 42, 0.14);
+
+  /* Radius + spacing */
+  --r-sm: 10px;
+  --r-md: 14px;
+  --r-lg: 18px;
+  --r-xl: 22px;
+
+  /* Typography scale */
+  --fs-xs: 0.82rem;
+  --fs-sm: 0.92rem;
+  --fs-md: 1.00rem;
+  --fs-lg: 1.12rem;
+  --fs-xl: 1.35rem;
+  --fs-2xl: 1.75rem;
+  --fs-3xl: 2.15rem;
+
+  /* Focus ring */
+  --ring: 0 0 0 4px rgba(42, 109, 246, 0.18);
+  --ring-strong: 0 0 0 4px rgba(42, 109, 246, 0.28);
+
+  /* Layout */
+  --container: 1120px;
+}
+
+/* Optional: dark mode support (if you ever enable it) */
+@media (prefers-color-scheme: dark) {
+  :root{
+    --bg-0: #0b1220;
+    --bg-50:#0f172a;
+    --bg-100:#111c33;
+    --bg-200:#162142;
+    --text-900:#e5e7eb;
+    --text-700:#cbd5e1;
+    --text-600:#b6c2d4;
+    --text-500:#93a4bb;
+    --border: rgba(226, 232, 240, 0.14);
+    --border-strong: rgba(226, 232, 240, 0.22);
+    --shadow-sm: 0 1px 2px rgba(0,0,0,0.35);
+    --shadow-md: 0 10px 26px rgba(0,0,0,0.38);
+    --shadow-lg: 0 18px 55px rgba(0,0,0,0.45);
+  }
+}
+
+/* ---------------------------
+   2) Base / Reset
+---------------------------- */
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body{
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
+  color: var(--text-700);
+  background:
+    radial-gradient(900px 500px at 10% -10%, rgba(42,109,246,0.12), transparent 60%),
+    radial-gradient(800px 450px at 90% 0%, rgba(31,87,194,0.12), transparent 60%),
+    linear-gradient(180deg, var(--bg-50), var(--bg-100));
+  margin: 0;
+  padding: 0;
+  line-height: 1.55;
+  font-size: var(--fs-md);
+}
+
+a{
+  color: var(--brand-700);
+  text-decoration: none;
+}
+a:hover{ color: var(--brand-600); text-decoration: underline; }
+
+img{ max-width: 100%; height: auto; display: block; }
+
+/* Improved selection */
+::selection{
+  background: rgba(42,109,246,0.22);
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+
+/* ---------------------------
+   3) Container + Page spacing
+---------------------------- */
+.container{
+  max-width: var(--container);
+}
+
+/* If you have pages that look “too wide”, this helps. */
+.page-narrow{
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Section titles */
+.section-title{
+  font-size: var(--fs-2xl);
+  font-weight: 800;
+  color: var(--text-900);
+  letter-spacing: -0.02em;
+  margin: 0 0 14px 0;
+}
+.section-subtitle{
+  color: var(--text-500);
+  margin: 0 0 18px 0;
+}
+
+/* ---------------------------
+   4) Navbar (Bootstrap override)
+---------------------------- */
+.navbar{
+  background: linear-gradient(90deg, var(--brand-900), var(--brand-700));
+  border-bottom: 1px solid rgba(255,255,255,0.10);
+  padding: 14px 0;
+}
+
+.navbar .navbar-brand{
+  font-weight: 900;
+  letter-spacing: 0.3px;
+  color: #fff !important;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.15rem;
+}
+
+.navbar .navbar-brand::before{
+  content: "●";
+  color: rgba(255,255,255,0.85);
+  font-size: 0.85rem;
+}
+
+.navbar .nav-link{
+  color: rgba(255,255,255,0.92) !important;
+  font-weight: 600;
+  padding: 10px 12px;
+  border-radius: 12px;
+  transition: transform 0.15s ease, background 0.15s ease, color 0.15s ease;
+  text-decoration: none;
+}
+
+.navbar .nav-link:hover{
+  background: rgba(255,255,255,0.10);
+  transform: translateY(-1px);
+  text-decoration: none;
+}
+
+.navbar .nav-link:focus{
+  outline: none;
+  box-shadow: var(--ring);
+  background: rgba(255,255,255,0.10);
+}
+
+.navbar .badge{
+  border-radius: 999px;
+  font-weight: 800;
+}
+
+/* ---------------------------
+   5) Hero
+---------------------------- */
+.hero{
+  margin-top: 18px;
+  background:
+    radial-gradient(1200px 500px at 20% 0%, rgba(255,255,255,0.12), transparent 60%),
+    linear-gradient(135deg, var(--brand-900), var(--brand-600));
+  color: white;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: var(--r-xl);
+  box-shadow: var(--shadow-lg);
+  padding: 56px 28px;
+  text-align: left;
+}
+
+.hero h1{
+  font-size: clamp(2rem, 3.4vw, 2.65rem);
+  font-weight: 950;
+  letter-spacing: -0.03em;
+  margin: 0 0 10px 0;
+}
+
+.hero p{
+  margin: 0 0 22px 0;
+  color: rgba(255,255,255,0.88);
+  font-size: var(--fs-lg);
+  max-width: 62ch;
+}
+
+.hero .btn{
+  border-radius: 14px;
+  padding: 12px 18px;
+  font-weight: 800;
+  letter-spacing: 0.2px;
+}
+
+/* ---------------------------
+   6) Cards
+---------------------------- */
+.card{
+  background: rgba(255,255,255,0.92);
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg);
+  box-shadow: var(--shadow-md);
+  padding: 22px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .card{
+    background: rgba(17, 28, 51, 0.92);
+  }
+}
+
+.card-title{
+  font-weight: 900;
+  color: var(--text-900);
+  letter-spacing: -0.02em;
+}
+
+.card p, .card li{
+  color: var(--text-600);
+}
+
+/* Feature cards look */
+.feature-card{
+  padding: 22px;
+  border-radius: var(--r-lg);
+  border: 1px solid var(--border);
+  background: linear-gradient(180deg, rgba(255,255,255,0.95), rgba(255,255,255,0.75));
+  box-shadow: var(--shadow-md);
+  height: 100%;
+}
+
+.feature-card h5{
+  font-weight: 900;
+  color: var(--text-900);
+  margin-bottom: 8px;
+  letter-spacing: -0.02em;
+}
+
+/* ---------------------------
+   7) Buttons (Bootstrap override)
+---------------------------- */
+.btn{
+  border-radius: 14px;
+  font-weight: 800;
+  letter-spacing: 0.2px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+}
+
+.btn:focus{
+  outline: none;
+  box-shadow: var(--ring-strong);
+}
+
+.btn:hover{
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
+}
+
+.btn-primary{
+  background: linear-gradient(180deg, var(--brand-600), var(--brand-700)) !important;
+  border: 1px solid rgba(255,255,255,0.15) !important;
+}
+
+.btn-primary:hover{
+  filter: brightness(1.03);
+}
+
+.btn-outline-primary{
+  border: 2px solid rgba(31, 87, 194, 0.35) !important;
+  color: var(--brand-800) !important;
+  background: transparent !important;
+}
+
+.btn-outline-primary:hover{
+  background: rgba(31, 87, 194, 0.08) !important;
+  border-color: rgba(31, 87, 194, 0.45) !important;
+}
+
+.btn-danger{
+  background: linear-gradient(180deg, #ef4444, #dc2626) !important;
+  border: 1px solid rgba(255,255,255,0.15) !important;
+}
+
+.btn-success{
+  background: linear-gradient(180deg, #22c55e, #16a34a) !important;
+  border: 1px solid rgba(255,255,255,0.15) !important;
+}
+
+/* ---------------------------
+   8) Forms (Bootstrap friendly)
+---------------------------- */
+.form-control, .form-select, textarea{
+  border-radius: 14px !important;
+  border: 1px solid var(--border) !important;
+  background: rgba(255,255,255,0.88);
+  box-shadow: none !important;
+  padding: 11px 12px !important;
+}
+
+.form-control:focus, .form-select:focus, textarea:focus{
+  border-color: rgba(42,109,246,0.55) !important;
+  box-shadow: var(--ring) !important;
+  background: rgba(255,255,255,0.95);
+}
+
+.form-label{
+  font-weight: 800;
+  color: var(--text-700);
+}
+
+/* Help text */
+.form-text, .text-muted{
+  color: var(--text-500) !important;
+}
+
+/* ---------------------------
+   9) Tables (pro look + responsive)
+---------------------------- */
+.table-responsive{
+  border-radius: var(--r-lg);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-md);
+  background: rgba(255,255,255,0.92);
+}
+
+.table{
+  margin-bottom: 0 !important;
+}
+
+.table thead th{
+  background: linear-gradient(180deg, rgba(12,42,109,0.98), rgba(18,59,140,0.98)) !important;
+  color: #fff !important;
+  font-weight: 900;
+  text-align: left;
+  padding: 14px 14px !important;
+  border: 0 !important;
+}
+
+.table td{
+  padding: 14px 14px !important;
+  color: var(--text-600);
+  border-color: rgba(15,23,42,0.08) !important;
+  vertical-align: middle;
+}
+
+.table tr:nth-child(even){
+  background: rgba(15,23,42,0.02);
+}
+
+.table-hover tbody tr:hover{
+  background: rgba(42,109,246,0.06);
+}
+
+/* ---------------------------
+   10) Badges + Status Pills
+---------------------------- */
+.badge{
+  font-weight: 900;
+  border-radius: 999px;
+  padding: 8px 12px;
+  letter-spacing: 0.2px;
+}
+
+.badge.bg-warning{
+  color: #111827 !important;
+}
+
+.status-pill{
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 12px;
+  border-radius: 999px;
+  font-weight: 900;
+  font-size: var(--fs-sm);
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.8);
+}
+.status-pill::before{
+  content: "";
+  width: 9px; height: 9px;
+  border-radius: 999px;
+  background: var(--text-500);
+}
+.status-pill.pending::before{ background: var(--warning); }
+.status-pill.approved::before{ background: var(--success); }
+.status-pill.rejected::before{ background: var(--danger); }
+.status-pill.info::before{ background: var(--info); }
+
+/* ---------------------------
+   11) Alerts (Bootstrap override)
+---------------------------- */
+.alert{
+  border-radius: var(--r-lg) !important;
+  border: 1px solid var(--border) !important;
+  box-shadow: var(--shadow-sm);
+}
+.alert-info{
+  background: rgba(14,165,233,0.10) !important;
+  color: var(--text-700) !important;
+}
+.alert-danger{
+  background: rgba(220,38,38,0.10) !important;
+  color: var(--text-700) !important;
+}
+.alert-success{
+  background: rgba(22,163,74,0.10) !important;
+  color: var(--text-700) !important;
+}
+
+/* ---------------------------
+   12) Footer
+---------------------------- */
+footer{
+  margin-top: 70px;
+  padding: 22px 10px;
+  background: linear-gradient(90deg, var(--brand-900), var(--brand-700));
+  color: rgba(255,255,255,0.92);
+  text-align: center;
+  font-weight: 700;
+  border-top: 1px solid rgba(255,255,255,0.10);
+}
+
+/* ---------------------------
+   13) Utility helpers
+---------------------------- */
+.shadow-soft{ box-shadow: var(--shadow-md) !important; }
+.rounded-xl{ border-radius: var(--r-xl) !important; }
+.border-soft{ border: 1px solid var(--border) !important; }
+
+.kicker{
+  display: inline-block;
+  font-size: var(--fs-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-weight: 900;
+  color: rgba(255,255,255,0.85);
+  margin-bottom: 10px;
+}
+
+/* ---------------------------
+   14) Chat Widget (for your user chatbot)
+   - Only styles; your PHP/JS controls visibility
+---------------------------- */
+.chat-fab{
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  width: 56px;
+  height: 56px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.22);
+  background: linear-gradient(180deg, var(--brand-600), var(--brand-800));
+  box-shadow: var(--shadow-lg);
+  color: #fff;
+  font-weight: 900;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  z-index: 9999;
+}
+.chat-fab:focus{ outline: none; box-shadow: var(--ring-strong), var(--shadow-lg); }
+
+.chat-panel{
+  position: fixed;
+  right: 18px;
+  bottom: 86px;
+  width: min(360px, calc(100vw - 36px));
+  border-radius: var(--r-xl);
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.94);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+  z-index: 9999;
+}
+
+.chat-header{
+  padding: 14px 14px;
+  background: linear-gradient(90deg, var(--brand-900), var(--brand-700));
+  color: #fff;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chat-body{
+  max-height: 340px;
+  overflow: auto;
+  padding: 14px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.70), rgba(255,255,255,0.95));
+}
+
+.chat-msg{
+  display: inline-block;
+  max-width: 85%;
+  padding: 10px 12px;
+  border-radius: 16px;
+  margin: 8px 0;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid rgba(15,23,42,0.08);
+  font-weight: 600;
+  color: var(--text-700);
+}
+
+.chat-msg.bot{
+  background: rgba(15,23,42,0.04);
+  border-top-left-radius: 8px;
+}
+
+.chat-msg.user{
+  background: rgba(42,109,246,0.10);
+  border-top-right-radius: 8px;
+  margin-left: auto;
+  display: block;
+}
+
+.chat-input{
+  display: flex;
+  gap: 10px;
+  padding: 12px;
+  border-top: 1px solid rgba(15,23,42,0.10);
+  background: rgba(255,255,255,0.96);
+}
+
+.chat-input input{
+  flex: 1;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  padding: 10px 12px;
+}
+.chat-input input:focus{
+  outline: none;
+  box-shadow: var(--ring);
+  border-color: rgba(42,109,246,0.55);
+}
+
+.chat-input button{
+  border-radius: 14px;
+  padding: 10px 14px;
+  border: 0;
+  background: linear-gradient(180deg, var(--brand-600), var(--brand-800));
+  color: #fff;
+  font-weight: 900;
+}
+
+.chat-close{
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.25);
+  color: #fff;
+  border-radius: 12px;
+  padding: 6px 10px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+/* ---------------------------
+   15) Small screen polish
+---------------------------- */
+@media (max-width: 576px){
+  .hero{
+    padding: 42px 18px;
+    text-align: left;
+  }
+  .navbar .nav-link{
+    padding: 10px 10px;
+  }
+}
+/* ==========================================================
+   16) AAA Addons (Page layouts + Components)
+   - Safe: does not break existing styles
+   - Used to style your PHP pages (login/register/dashboards)
+   ========================================================== */
+
+/* ---- Layout wrappers ---- */
+.page{
+  padding: 34px 0 56px;
+}
+
+.shell{
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.grid-2{
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 22px;
+  align-items: start;
+}
+
+@media (max-width: 992px){
+  .grid-2{ grid-template-columns: 1fr; }
+}
+
+.panel{
+  background: rgba(255,255,255,0.92);
+  border: 1px solid var(--border);
+  border-radius: var(--r-xl);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+}
+
+@media (prefers-color-scheme: dark){
+  .panel{ background: rgba(17, 28, 51, 0.92); }
+}
+
+.panel-header{
+  padding: 18px 20px;
+  border-bottom: 1px solid rgba(15,23,42,0.08);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.panel-title{
+  margin: 0;
+  font-weight: 950;
+  letter-spacing: -0.03em;
+  color: var(--text-900);
+  font-size: var(--fs-xl);
+}
+
+.panel-body{
+  padding: 20px;
+}
+
+.panel-footer{
+  padding: 16px 20px;
+  border-top: 1px solid rgba(15,23,42,0.08);
+  background: rgba(15,23,42,0.015);
+}
+
+/* ---- Top page header ---- */
+.page-head{
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  gap: 16px;
+  margin: 18px 0 18px;
+}
+
+.page-head h1{
+  margin: 0;
+  font-size: var(--fs-3xl);
+  font-weight: 950;
+  letter-spacing: -0.03em;
+  color: var(--text-900);
+}
+
+.page-head p{
+  margin: 8px 0 0;
+  color: var(--text-500);
+  max-width: 70ch;
+}
+
+/* ---- Auth pages ---- */
+.auth-wrap{
+  min-height: calc(100vh - 80px);
+  display: grid;
+  place-items: center;
+  padding: 30px 0 60px;
+}
+
+.auth-card{
+  width: min(520px, calc(100vw - 40px));
+  border-radius: var(--r-xl);
+  background: rgba(255,255,255,0.92);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+}
+
+@media (prefers-color-scheme: dark){
+  .auth-card{ background: rgba(17, 28, 51, 0.92); }
+}
+
+.auth-card .auth-head{
+  padding: 22px 22px 14px;
+}
+
+.auth-kicker{
+  display:inline-flex;
+  align-items:center;
+  gap: 10px;
+  font-weight: 950;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: var(--fs-xs);
+  color: var(--text-500);
+}
+
+.auth-card h2{
+  margin: 10px 0 6px;
+  font-size: var(--fs-2xl);
+  font-weight: 950;
+  letter-spacing: -0.03em;
+  color: var(--text-900);
+}
+
+.auth-card .auth-sub{
+  margin: 0;
+  color: var(--text-500);
+}
+
+.auth-card .auth-body{
+  padding: 18px 22px 22px;
+}
+
+.auth-actions{
+  display:flex;
+  gap: 10px;
+  align-items:center;
+  justify-content:space-between;
+  margin-top: 14px;
+  flex-wrap: wrap;
+}
+
+/* ---- Form row spacing ---- */
+.form-row{
+  margin-bottom: 14px;
+}
+
+/* ---- Inputs with icons (optional) ---- */
+.input-group.aaagroup{
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.88);
+}
+.input-group.aaagroup:focus-within{
+  box-shadow: var(--ring);
+  border-color: rgba(42,109,246,0.55);
+  background: rgba(255,255,255,0.95);
+}
+.input-group.aaagroup .input-group-text{
+  border: 0 !important;
+  background: rgba(15,23,42,0.03) !important;
+  font-weight: 900;
+  color: var(--text-600);
+}
+.input-group.aaagroup .form-control{
+  border: 0 !important;
+  background: transparent !important;
+}
+
+/* ---- Search bar ---- */
+.searchbar{
+  display:flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.searchbar .form-control{
+  min-width: 240px;
+}
+.searchbar .btn{
+  white-space: nowrap;
+}
+
+/* ---- “Empty state” ---- */
+.empty{
+  border: 1px dashed rgba(15,23,42,0.20);
+  border-radius: var(--r-xl);
+  padding: 26px;
+  text-align: center;
+  background: rgba(255,255,255,0.65);
+}
+.empty h3{
+  margin: 0 0 6px;
+  font-weight: 950;
+  letter-spacing: -0.02em;
+  color: var(--text-900);
+}
+.empty p{
+  margin: 0;
+  color: var(--text-500);
+}
+
+/* ---- Avatars / thumbnails ---- */
+.thumb{
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  object-fit: cover;
+  border: 1px solid rgba(15,23,42,0.12);
+  box-shadow: var(--shadow-sm);
+}
+
+/* ---- Chips ---- */
+.chip{
+  display:inline-flex;
+  align-items:center;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.75);
+  font-weight: 900;
+  font-size: var(--fs-sm);
+  color: var(--text-600);
+}
+
+/* ---- Soft separators ---- */
+.hr-soft{
+  height: 1px;
+  background: rgba(15,23,42,0.10);
+  border: 0;
+  margin: 18px 0;
+}
+
+/* ---- Toast-like notice ---- */
+.notice{
+  border-radius: var(--r-lg);
+  border: 1px solid var(--border);
+  padding: 14px 14px;
+  background: rgba(255,255,255,0.78);
+  box-shadow: var(--shadow-sm);
+  color: var(--text-600);
+}
+
+/* ---- Scrollbar polish (Webkit) ---- */
+*::-webkit-scrollbar{ width: 10px; height: 10px; }
+*::-webkit-scrollbar-thumb{
+  background: rgba(15,23,42,0.20);
+  border-radius: 999px;
+  border: 2px solid rgba(255,255,255,0.55);
+}
+*::-webkit-scrollbar-track{
+  background: rgba(15,23,42,0.05);
+  border-radius: 999px;
+}
+
+/* ---- Small screen: reduce padding ---- */
+@media (max-width: 576px){
+  .page{ padding: 24px 0 46px; }
+  .panel-header, .panel-body, .panel-footer{ padding-left: 16px; padding-right: 16px; }
+}
+/* ==========================================================
+   17) Contrast Fix + Extra Polish (Dark mode readability)
+   Paste at VERY BOTTOM of style.css
+   ========================================================== */
+
+/* Ensure headings are readable */
+h1, h2, h3, h4, h5, h6{
+  color: var(--text-900);
+}
+
+/* Improve general paragraph/list contrast in dark mode */
+@media (prefers-color-scheme: dark){
+  body{
+    color: var(--text-700);
+  }
+  p, li{
+    color: var(--text-700);
+  }
+}
+
+/* Panels: slightly brighter in dark mode for separation */
+@media (prefers-color-scheme: dark){
+  .panel{
+    background: rgba(17, 28, 51, 0.88) !important;
+    border-color: rgba(226, 232, 240, 0.16) !important;
+  }
+  .panel-header,
+  .panel-footer{
+    border-color: rgba(226, 232, 240, 0.12) !important;
+  }
+}
+
+/* FIX: Chips were too light / low contrast on dark panels */
+.chip{
+  color: var(--text-700);
+}
+
+@media (prefers-color-scheme: dark){
+  .chip{
+    background: rgba(226, 232, 240, 0.10) !important;
+    border-color: rgba(226, 232, 240, 0.18) !important;
+    color: rgba(255,255,255,0.90) !important;
+  }
+}
+
+/* FIX: status-pill text was too faint */
+.status-pill{
+  color: var(--text-700);
+}
+
+@media (prefers-color-scheme: dark){
+  .status-pill{
+    background: rgba(226, 232, 240, 0.10) !important;
+    border-color: rgba(226, 232, 240, 0.18) !important;
+    color: rgba(255,255,255,0.90) !important;
+  }
+}
+
+/* Make the "info" pill label readable (your screenshot shows it fading) */
+@media (prefers-color-scheme: dark){
+  .status-pill.info{
+    background: rgba(14,165,233,0.16) !important;
+    border-color: rgba(14,165,233,0.28) !important;
+    color: rgba(255,255,255,0.92) !important;
+  }
+}
+
+/* Ordered lists inside panels: better spacing + readability */
+.panel ol, .panel ul{
+  padding-left: 1.2rem;
+}
+.panel li{
+  margin: 0.35rem 0;
+}
+
+/* Optional: make page title pop a bit more (AAA look) */
+@media (prefers-color-scheme: dark){
+  .page-head h1{
+    text-shadow: 0 10px 35px rgba(0,0,0,0.45);
+  }
+}
+
+/* Navbar buttons in dark gradient: ensure contrast */
+.navbar .btn{
+  box-shadow: 0 8px 20px rgba(0,0,0,0.18);
+}
+.navbar .btn-outline-primary{
+  color: rgba(255,255,255,0.92) !important;
+  border-color: rgba(255,255,255,0.28) !important;
+}
+.navbar .btn-outline-primary:hover{
+  background: rgba(255,255,255,0.10) !important;
+  border-color: rgba(255,255,255,0.38) !important;
+}
+
+/* Make icon buttons and links stay visible */
+.navbar .nav-link{
+  text-shadow: 0 6px 20px rgba(0,0,0,0.22);
+}
+/* ==========================================================
+   18) Index Visual Fixes (Feature cards + muted text contrast)
+   Paste at VERY BOTTOM of style.css
+   ========================================================== */
+
+/* Feature cards: ensure readable title/body */
+.feature-card h5{
+  color: var(--text-900) !important;
+  font-weight: 950;
+  letter-spacing: -0.02em;
+}
+.feature-card p{
+  color: var(--text-600) !important;
+}
+
+/* Dark mode: feature cards + text need stronger contrast */
+@media (prefers-color-scheme: dark){
+  .feature-card{
+    background: linear-gradient(180deg, rgba(17, 28, 51, 0.92), rgba(17, 28, 51, 0.76)) !important;
+    border-color: rgba(226, 232, 240, 0.16) !important;
+  }
+  .feature-card h5{
+    color: rgba(255,255,255,0.94) !important;
+  }
+  .feature-card p{
+    color: rgba(255,255,255,0.78) !important;
+  }
+
+  /* Bootstrap's .text-muted becomes too faint in dark UI */
+  .text-muted{
+    color: rgba(255,255,255,0.70) !important;
+  }
+}
+
+/* Icon circle (you used it in HTML but didn't define it) */
+.icon-circle{
+  width: 56px;
+  height: 56px;
+  margin: 0 auto;
+  display: grid;
+  place-items: center;
+  border-radius: 16px;
+  border: 1px solid rgba(15,23,42,0.10);
+  background: rgba(255,255,255,0.70);
+  box-shadow: var(--shadow-sm);
+}
+@media (prefers-color-scheme: dark){
+  .icon-circle{
+    background: rgba(226,232,240,0.10);
+    border-color: rgba(226,232,240,0.16);
+  }
+}
+/* ==========================================================
+   21) Browse visibility fixes (notice + status pill text)
+   Paste at VERY BOTTOM of style.css
+   ========================================================== */
+
+/* The notice box needs strong readable text */
+.notice{
+  color: var(--text-700) !important;
+  font-weight: 800;
+}
+
+@media (prefers-color-scheme: dark){
+  .notice{
+    background: rgba(226,232,240,0.10) !important;
+    border-color: rgba(226,232,240,0.18) !important;
+    color: rgba(255,255,255,0.88) !important;
+  }
+}
+
+/* Make status-pill text readable (your pills look washed out) */
+.status-pill{
+  color: var(--text-700) !important;
+  background: rgba(255,255,255,0.80) !important;
+}
+
+.status-pill.pending,
+.status-pill.lost{
+  background: rgba(245,158,11,0.14) !important;  /* amber */
+  border-color: rgba(245,158,11,0.26) !important;
+  color: #111827 !important;
+}
+
+.status-pill.found,
+.status-pill.approved{
+  background: rgba(22,163,74,0.14) !important;   /* green */
+  border-color: rgba(22,163,74,0.26) !important;
+  color: #111827 !important;
+}
+
+.status-pill.rejected{
+  background: rgba(220,38,38,0.14) !important;   /* red */
+  border-color: rgba(220,38,38,0.26) !important;
+  color: #111827 !important;
+}
+
+/* Dark mode: keep pills bright enough */
+@media (prefers-color-scheme: dark){
+  .status-pill{
+    background: rgba(226,232,240,0.10) !important;
+    border-color: rgba(226,232,240,0.18) !important;
+    color: rgba(255,255,255,0.90) !important;
+  }
+
+  .status-pill.pending,
+  .status-pill.lost{
+    background: rgba(245,158,11,0.18) !important;
+    border-color: rgba(245,158,11,0.30) !important;
+    color: rgba(255,255,255,0.92) !important;
+  }
+
+  .status-pill.found,
+  .status-pill.approved{
+    background: rgba(22,163,74,0.18) !important;
+    border-color: rgba(22,163,74,0.30) !important;
+    color: rgba(255,255,255,0.92) !important;
+  }
+
+  .status-pill.rejected{
+    background: rgba(220,38,38,0.18) !important;
+    border-color: rgba(220,38,38,0.30) !important;
+    color: rgba(255,255,255,0.92) !important;
+  }
+}
+
+/* Also strengthen table body text a bit (it's still pale) */
+.table td{
+  color: var(--text-700) !important;
+}
+@media (prefers-color-scheme: dark){
+  .table td{
+    color: rgba(255,255,255,0.82) !important;
+  }
+}
+/* ==========================================================
+   22) Table text readability fix (light table background)
+   Paste at VERY BOTTOM of style.css
+   ========================================================== */
+
+/* Your table wrapper is light; force readable text */
+.table-responsive,
+.table-responsive .table{
+  background: rgba(255,255,255,0.92) !important;
+}
+
+/* Force dark text inside table body (so it doesn't wash out) */
+.table tbody td{
+  color: #0f172a !important;          /* strong dark */
+  opacity: 1 !important;
+}
+
+.table tbody td .text-muted{
+  color: #475569 !important;          /* readable muted */
+  opacity: 1 !important;
+}
+
+.table tbody td strong{
+  color: #0f172a !important;
+}
+
+/* Links / small claim info readability */
+.table tbody td.small{
+  color: #334155 !important;
+}
+
+/* Ensure the striped/hover colors remain soft */
+.table tr:nth-child(even){
+  background: rgba(15,23,42,0.03) !important;
+}
+.table-hover tbody tr:hover{
+  background: rgba(42,109,246,0.08) !important;
+}
+
+/* Keep header as your premium dark header */
+.table thead th{
+  color: #fff !important;
+}
+
+/* Status pill inside table: keep readable on light rows */
+.table .status-pill{
+  color: #111827 !important;
+}
+/* ==========================================================
+   23) Verification Q/A styling (fix invisible questions)
+   ========================================================== */
+
+.qa-block{
+  display: grid;
+  gap: 14px;
+}
+
+.qa-q{
+  display: grid;
+  grid-template-columns: 46px 1fr;
+  gap: 12px;
+  align-items: start;
+  padding: 14px 14px;
+  border-radius: var(--r-lg);
+  border: 1px solid rgba(15,23,42,0.10);
+  background: rgba(255,255,255,0.70);
+}
+
+.qa-label{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  height: 34px;
+  width: 46px;
+  border-radius: 12px;
+  font-weight: 950;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: rgba(42,109,246,0.12);
+  border: 1px solid rgba(42,109,246,0.22);
+  color: var(--brand-800);
+}
+
+.qa-text{
+  color: var(--text-900);
+  font-weight: 700;
+  line-height: 1.45;
+  word-break: break-word;
+}
+
+/* Dark mode: keep questions readable */
+@media (prefers-color-scheme: dark){
+  .qa-q{
+    background: rgba(226,232,240,0.08);
+    border-color: rgba(226,232,240,0.14);
+  }
+  .qa-label{
+    background: rgba(42,109,246,0.18);
+    border-color: rgba(42,109,246,0.26);
+    color: rgba(255,255,255,0.92);
+  }
+  .qa-text{
+    color: rgba(255,255,255,0.90);
+  }
+}
+/* ==========================================================
+   24) Q/A long-text wrapping + tighter layout
+   ========================================================== */
+
+/* Force long unbroken text (like "bbbbbbbb...") to wrap */
+.qa-text{
+  overflow-wrap: anywhere !important;
+  word-break: break-word !important;
+  hyphens: auto;
+}
+
+/* Make Q/A blocks feel more compact and premium */
+.qa-q{
+  padding: 12px 14px !important;
+}
+
+/* Improve alignment for the label vs text */
+.qa-label{
+  align-self: start;
+}
+/* ==========================================================
+   25) REAL fix: allow wrapping in Grid/Flex (min-width: 0)
+   Paste at VERY BOTTOM of style.css
+   ========================================================== */
+
+/* Let the text column actually shrink so long words can wrap */
+.qa-q{
+  grid-template-columns: 64px minmax(0, 1fr) !important;
+}
+
+.qa-q > *{
+  min-width: 0 !important; /* critical for grid children */
+}
+
+.qa-text{
+  min-width: 0 !important;
+  display: block !important;
+  overflow-wrap: anywhere !important;
+  word-break: break-word !important;
+  white-space: normal !important;
+}
+/* Fix role dropdown visibility */
+.form-select,
+select.form-select {
+    background-color: #0f1b2d;        /* match your dark theme */
+    color: #ffffff;
+    border: 1.5px solid #3a5ca8;      /* visible border always */
+    border-radius: 10px;
+}
+
+.form-select:focus {
+    border-color: #4f8cff;
+    box-shadow: 0 0 0 2px rgba(79,140,255,0.25);
+}
+/* ============================
+   Admin Users: Role dropdown fix
+   ============================ */
+
+/* The select box */
+table .form-select,
+table select.form-select {
+  background: #0f1b2d !important;     /* dark */
+  color: #ffffff !important;          /* readable */
+  border: 2px solid rgba(79, 140, 255, 0.55) !important;
+  border-radius: 14px !important;
+  padding: 8px 12px !important;
+  min-height: 42px;
+  line-height: 1.2;
+  box-shadow: none !important;
+  appearance: auto; /* keep native arrow */
+}
+
+/* Hover */
+table .form-select:hover{
+  border-color: rgba(79, 140, 255, 0.85) !important;
+}
+
+/* Focus ring */
+table .form-select:focus{
+  border-color: rgba(79, 140, 255, 1) !important;
+  box-shadow: 0 0 0 4px rgba(79, 140, 255, 0.22) !important;
+  outline: none !important;
+}
+
+/* Dropdown options (important so it doesn't look blank) */
+table select.form-select option{
+  background: #ffffff !important;  /* options list */
+  color: #0f172a !important;       /* readable text */
+}
+
+/* If a browser applies weird disabled look */
+table select.form-select:disabled{
+  opacity: 0.8;
+  cursor: not-allowed;
+}
+/* ==========================================================
+   GLOBAL SELECT / DROPDOWN FIX (Admin + Browse + Everywhere)
+   - Fixes "blank select", invisible border, bad option colors
+   ========================================================== */
+
+/* The select control itself */
+.form-select,
+select.form-select,
+select {
+  background: rgba(15, 27, 45, 0.92) !important; /* dark, fits your theme */
+  color: #ffffff !important;
+  border: 2px solid rgba(79, 140, 255, 0.55) !important;
+  border-radius: 14px !important;
+  min-height: 44px;
+  padding: 10px 14px !important;
+  box-shadow: none !important;
+  outline: none !important;
+  appearance: auto; /* keep native arrow */
+}
+
+/* Hover */
+.form-select:hover,
+select.form-select:hover,
+select:hover {
+  border-color: rgba(79, 140, 255, 0.85) !important;
+}
+
+/* Focus */
+.form-select:focus,
+select.form-select:focus,
+select:focus {
+  border-color: rgba(79, 140, 255, 1) !important;
+  box-shadow: 0 0 0 4px rgba(79, 140, 255, 0.22) !important;
+}
+
+/* The dropdown menu items (options) */
+select option,
+.form-select option {
+  background: #ffffff !important; /* menu background */
+  color: #0f172a !important;      /* menu text */
+}
+
+/* If you ever use optgroups */
+select optgroup,
+.form-select optgroup {
+  background: #ffffff !important;
+  color: #0f172a !important;
+}
+
+/* Fixes some browsers showing placeholder-like first option */
+select option[value=""],
+.form-select option[value=""] {
+  color: #64748b !important;
+}
+/* =========================
+   Chatbot Widget Fix
+   ========================= */
+
+/* Floating button */
+.chat-fab{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  font-size: 22px;
+  font-weight: bold;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.chat-fab:hover{
+  background:#1e4fd1;
+}
+
+/* Chat panel */
+.chat-panel{
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  width: 340px;
+  height: 420px;
+  background: #0f1b2e;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+  display:flex;
+  flex-direction:column;
+  overflow:hidden;
+  z-index:9999;
+}
+
+/* Header */
+.chat-header{
+  background:#1e3a8a;
+  color:white;
+  padding:10px 14px;
+  font-weight:600;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+/* Close button */
+.chat-close{
+  border:none;
+  background:transparent;
+  color:white;
+  font-size:14px;
+  cursor:pointer;
+}
+
+/* Messages area */
+.chat-body{
+  flex:1;
+  overflow:auto;
+  padding:12px;
+  background:#111827;
+}
+
+/* Message bubbles */
+.chat-msg{
+  padding:8px 12px;
+  border-radius:12px;
+  margin-bottom:8px;
+  max-width:80%;
+  font-size:14px;
+}
+
+.chat-msg.bot{
+  background:#1f2937;
+  color:#f3f4f6;
+}
+
+.chat-msg.user{
+  background:#2563eb;
+  color:white;
+  margin-left:auto;
+}
+
+/* Input / quick buttons area */
+.chat-input{
+  padding:10px;
+  background:#0f172a;
+  border-top:1px solid #1f2937;
+}
+
+/* Quick question buttons */
+.chat-input .btn{
+  font-size:12px;
+  padding:6px 10px;
+  border-radius:8px;
+  border:1px solid #3b82f6;
+  color:#3b82f6;
+  background:transparent;
+}
+
+.chat-input .btn:hover{
+  background:#3b82f6;
+  color:white;
+}
+
+/* Danger button */
+.chat-input .btn-outline-danger{
+  border-color:#ef4444;
+  color:#ef4444;
+}
+
+.chat-input .btn-outline-danger:hover{
+  background:#ef4444;
+  color:white;
+}
+/* =========================
+   Chatbot Panel Layout Fix
+   ========================= */
+
+.chat-panel{
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  width: 360px;
+
+  /* KEY FIX */
+  height: 520px;
+  max-height: calc(100vh - 120px);
+
+  background: #0f1b2e;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  z-index: 9999;
+}
+
+/* Header stays fixed */
+.chat-header{
+  background:#1e3a8a;
+  color:white;
+  padding:10px 14px;
+  font-weight:600;
+
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+  flex-shrink:0;
+}
+
+/* Chat messages scroll */
+.chat-body{
+  flex:1;
+  overflow-y:auto;
+  padding:12px;
+  background:#111827;
+}
+
+/* Quick buttons area */
+.chat-input{
+  background:#0f172a;
+  border-top:1px solid #1f2937;
+  padding:10px;
+
+  /* KEY FIX */
+  max-height:140px;
+  overflow-y:auto;
+
+  flex-shrink:0;
+}
+
+/* Buttons wrap nicely */
+.chat-input button{
+  font-size:12px;
+  margin:3px;
+}
+
+/* Floating button */
+.chat-fab{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #2563eb;
+  color: white;
+  border: none;
+  font-size: 22px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+  cursor:pointer;
+}
+@media (max-width: 600px){
+
+  .chat-panel{
+    right:10px;
+    left:10px;
+    width:auto;
+    height:70vh;
+  }
+
+}

@@ -1,0 +1,10 @@
+[2026-03-04 10:05:12] FAILED
+TO: forpc5957@gmail.com
+SUBJECT: VU LostLink OTP Code
+ERROR: Class "PHPMailer\PHPMailer\Exception" not found
+---
+[2026-03-04 10:06:15] FAILED
+TO: forpc5957@gmail.com
+SUBJECT: VU LostLink OTP Code
+ERROR: Class "PHPMailer\PHPMailer\Exception" not found
+---

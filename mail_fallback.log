@@ -1,0 +1,2832 @@
+[2026-03-04 10:07:13] FAILED
+TO: forpc5957@gmail.com
+SUBJECT: VU LostLink OTP Code
+ERROR: Class "PHPMailer\PHPMailer\PHPMailer" not found
+BODY:
+
+                  <h3>VU LostLink</h3>
+                  <p>Your OTP code is:</p>
+                  <h2 style='letter-spacing:2px;'>842432</h2>
+                  <p>This code expires in 5 minutes.</p>
+                
+---
+[SMTP-2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-4851887fc54sm8702785e9.10 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: STARTTLS
+
+[SMTP-2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: AUTH LOGIN
+
+[SMTP-2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[SMTP-1] CLIENT -> SERVER: MAIL FROM:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-4851887fc54sm8702785e9.10 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: RCPT TO:<forpc5957@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-4851887fc54sm8702785e9.10 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: DATA
+
+[SMTP-2] SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-4851887fc54sm8702785e9.10 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: Date: Wed, 4 Mar 2026 10:12:15 +1100
+
+[SMTP-1] CLIENT -> SERVER: To: snoj <forpc5957@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: From: VU LostLink <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: Subject: VU LostLink OTP Code
+
+[SMTP-1] CLIENT -> SERVER: Message-ID: <MmXQPlX6GKwyoP2Z7q0bdiN7A4EQPz7XmeRmxPxggU@vulostlink.42web.io>
+
+[SMTP-1] CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[SMTP-1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[SMTP-1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER:                   <h3>VU LostLink</h3>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>Your OTP code is:</p>
+
+[SMTP-1] CLIENT -> SERVER:                   <h2 style='letter-spacing:2px;'>875189</h2>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>This code expires in 5 minutes.</p>
+
+[SMTP-1] CLIENT -> SERVER:                 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: .
+
+[SMTP-2] SERVER -> CLIENT: 250 2.0.0 OK  1772579537 5b1f17b1804b1-4851887fc54sm8702785e9.10 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: QUIT
+
+[SMTP-2] SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-4851887fc54sm8702785e9.10 - gsmtp
+
+[SMTP-2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-485135b6900sm25884855e9.22 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: STARTTLS
+
+[SMTP-2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: AUTH LOGIN
+
+[SMTP-2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[SMTP-1] CLIENT -> SERVER: MAIL FROM:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-485135b6900sm25884855e9.22 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: RCPT TO:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-485135b6900sm25884855e9.22 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: DATA
+
+[SMTP-2] SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-485135b6900sm25884855e9.22 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: Date: Wed, 4 Mar 2026 10:15:03 +1100
+
+[SMTP-1] CLIENT -> SERVER: To: LOSTLINK <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: From: VU LostLink <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: Subject: VU LostLink OTP Code
+
+[SMTP-1] CLIENT -> SERVER: Message-ID: <m7vSYEwUM7Xt9CHNnrl6GE5uWAjQJWtYckdQzVOSrBI@vulostlink.42web.io>
+
+[SMTP-1] CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[SMTP-1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[SMTP-1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER:                   <h3>VU LostLink</h3>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>Your OTP code is:</p>
+
+[SMTP-1] CLIENT -> SERVER:                   <h2 style='letter-spacing:2px;'>970564</h2>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>This code expires in 5 minutes.</p>
+
+[SMTP-1] CLIENT -> SERVER:                 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: .
+
+[SMTP-2] SERVER -> CLIENT: 250 2.0.0 OK  1772579705 5b1f17b1804b1-485135b6900sm25884855e9.22 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: QUIT
+
+[SMTP-2] SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-485135b6900sm25884855e9.22 - gsmtp
+
+[SMTP-2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-485187db303sm9927515e9.0 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: STARTTLS
+
+[SMTP-2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: AUTH LOGIN
+
+[SMTP-2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[SMTP-1] CLIENT -> SERVER: MAIL FROM:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-485187db303sm9927515e9.0 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: RCPT TO:<forpc5957@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-485187db303sm9927515e9.0 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: DATA
+
+[SMTP-2] SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-485187db303sm9927515e9.0 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: Date: Wed, 4 Mar 2026 10:26:05 +1100
+
+[SMTP-1] CLIENT -> SERVER: To: snoj <forpc5957@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: From: VU LostLink <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: Subject: VU LostLink - Verification Questions
+
+[SMTP-1] CLIENT -> SERVER: Message-ID: <YOpSbjUZC3jbsh4VgSAmQPhR3H9LVchYkBnT8bn1w@vulostlink.42web.io>
+
+[SMTP-1] CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[SMTP-1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[SMTP-1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER:       <h3>VU LostLink</h3>
+
+[SMTP-1] CLIENT -> SERVER:       <p>Hello snoj,</p>
+
+[SMTP-1] CLIENT -> SERVER:       <p>Admin has sent verification questions for <b>game</b>.</p>
+
+[SMTP-1] CLIENT -> SERVER:       <p>Please login to answer them in your dashboard.</p>
+
+[SMTP-1] CLIENT -> SERVER:       <p><small>If you did not request this, ignore this email.</small></p>
+
+[SMTP-1] CLIENT -> SERVER:     
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: .
+
+[SMTP-2] SERVER -> CLIENT: 250 2.0.0 OK  1772580366 5b1f17b1804b1-485187db303sm9927515e9.0 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: QUIT
+
+[SMTP-2] SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-485187db303sm9927515e9.0 - gsmtp
+
+[SMTP-2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-485135c2b5dsm24210165e9.24 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: STARTTLS
+
+[SMTP-2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: AUTH LOGIN
+
+[SMTP-2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[SMTP-1] CLIENT -> SERVER: MAIL FROM:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-485135c2b5dsm24210165e9.24 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: RCPT TO:<adminone@vu.edu.au>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-485135c2b5dsm24210165e9.24 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: DATA
+
+[SMTP-2] SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-485135c2b5dsm24210165e9.24 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: Date: Wed, 4 Mar 2026 10:26:42 +1100
+
+[SMTP-1] CLIENT -> SERVER: To: Admin One <adminone@vu.edu.au>
+
+[SMTP-1] CLIENT -> SERVER: From: VU LostLink <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: Subject: VU LostLink - User Answered Verification
+
+[SMTP-1] CLIENT -> SERVER: Message-ID: <QPXNLH9YPepSjZMwQl3T6VW0eLZ1BKojDSB4eStdk@vulostlink.42web.io>
+
+[SMTP-1] CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[SMTP-1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[SMTP-1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER:               <h3>VU LostLink</h3>
+
+[SMTP-1] CLIENT -> SERVER:               <p>Hello Admin One,</p>
+
+[SMTP-1] CLIENT -> SERVER:               <p>A user has answered verification questions for:</p>
+
+[SMTP-1] CLIENT -> SERVER:               <p><b>Item:</b> game</p>
+
+[SMTP-1] CLIENT -> SERVER:               <p>Please login to Admin Dashboard to review and approve/reject.</p>
+
+[SMTP-1] CLIENT -> SERVER:             
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: .
+
+[SMTP-2] SERVER -> CLIENT: 250 2.0.0 OK  1772580404 5b1f17b1804b1-485135c2b5dsm24210165e9.24 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: QUIT
+
+[SMTP-2] SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-485135c2b5dsm24210165e9.24 - gsmtp
+
+[SMTP-2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-439b55df68dsm18887222f8f.26 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: STARTTLS
+
+[SMTP-2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: AUTH LOGIN
+
+[SMTP-2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[SMTP-1] CLIENT -> SERVER: MAIL FROM:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-439b55df68dsm18887222f8f.26 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: RCPT TO:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-439b55df68dsm18887222f8f.26 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: DATA
+
+[SMTP-2] SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-439b55df68dsm18887222f8f.26 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: Date: Wed, 4 Mar 2026 10:26:44 +1100
+
+[SMTP-1] CLIENT -> SERVER: To: LOSTLINK <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: From: VU LostLink <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: Subject: VU LostLink - User Answered Verification
+
+[SMTP-1] CLIENT -> SERVER: Message-ID: <bd0UUJxFAWL5cLdhMx0dQ4EthVRIcbDdpir8qYsOgk@vulostlink.42web.io>
+
+[SMTP-1] CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[SMTP-1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[SMTP-1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER:               <h3>VU LostLink</h3>
+
+[SMTP-1] CLIENT -> SERVER:               <p>Hello LOSTLINK,</p>
+
+[SMTP-1] CLIENT -> SERVER:               <p>A user has answered verification questions for:</p>
+
+[SMTP-1] CLIENT -> SERVER:               <p><b>Item:</b> game</p>
+
+[SMTP-1] CLIENT -> SERVER:               <p>Please login to Admin Dashboard to review and approve/reject.</p>
+
+[SMTP-1] CLIENT -> SERVER:             
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: .
+
+[SMTP-2] SERVER -> CLIENT: 250 2.0.0 OK  1772580406 ffacd0b85a97d-439b55df68dsm18887222f8f.26 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: QUIT
+
+[SMTP-2] SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-439b55df68dsm18887222f8f.26 - gsmtp
+
+[SMTP-2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-4851883a012sm18335925e9.3 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: STARTTLS
+
+[SMTP-2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: AUTH LOGIN
+
+[SMTP-2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[SMTP-1] CLIENT -> SERVER: MAIL FROM:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-4851883a012sm18335925e9.3 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: RCPT TO:<forpc5957@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-4851883a012sm18335925e9.3 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: DATA
+
+[SMTP-2] SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-4851883a012sm18335925e9.3 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: Date: Wed, 4 Mar 2026 10:55:15 +1100
+
+[SMTP-1] CLIENT -> SERVER: To: snoj <forpc5957@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: From: VU LostLink <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: Subject: VU LostLink - Approved
+
+[SMTP-1] CLIENT -> SERVER: Message-ID: <p4dvNGVauKNyvr5oYDglPzttxeO0YoZudqtphip05g@vulostlink.42web.io>
+
+[SMTP-1] CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[SMTP-1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[SMTP-1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER:           <h3>VU LostLink</h3>
+
+[SMTP-1] CLIENT -> SERVER:           <p>Hello snoj,</p>
+
+[SMTP-1] CLIENT -> SERVER:           <p><b>Status:</b> APPROVED</p>
+
+[SMTP-1] CLIENT -> SERVER:           <p><b>Item:</b> game</p>
+
+[SMTP-1] CLIENT -> SERVER:           <p>Your LOST item claim for &#039;game&#039; has been approved. Please collect your item at Level G (Uni Building).</p>
+
+[SMTP-1] CLIENT -> SERVER:           <p>Thank you.</p>
+
+[SMTP-1] CLIENT -> SERVER:         
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: .
+
+[SMTP-2] SERVER -> CLIENT: 250 2.0.0 OK  1772582117 5b1f17b1804b1-4851883a012sm18335925e9.3 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: QUIT
+
+[SMTP-2] SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-4851883a012sm18335925e9.3 - gsmtp
+
+[SMTP-2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-439ae0e7abasm24669867f8f.23 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: STARTTLS
+
+[SMTP-2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: AUTH LOGIN
+
+[SMTP-2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[SMTP-1] CLIENT -> SERVER: MAIL FROM:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-439ae0e7abasm24669867f8f.23 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: RCPT TO:<forpc5957@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-439ae0e7abasm24669867f8f.23 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: DATA
+
+[SMTP-2] SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-439ae0e7abasm24669867f8f.23 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: Date: Wed, 4 Mar 2026 10:55:47 +1100
+
+[SMTP-1] CLIENT -> SERVER: To: snoj <forpc5957@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: From: VU LostLink <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: Subject: VU LostLink - Verification Questions
+
+[SMTP-1] CLIENT -> SERVER: Message-ID: <jYmgPlyWG93xYTeTZ6WWcGIKKmlAxZJUM5jpCCgxwFk@vulostlink.42web.io>
+
+[SMTP-1] CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[SMTP-1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[SMTP-1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER:       <h3>VU LostLink</h3>
+
+[SMTP-1] CLIENT -> SERVER:       <p>Hello snoj,</p>
+
+[SMTP-1] CLIENT -> SERVER:       <p>Admin has sent verification questions for <b>regregh</b>.</p>
+
+[SMTP-1] CLIENT -> SERVER:       <p>Please login to answer them in your dashboard.</p>
+
+[SMTP-1] CLIENT -> SERVER:       <p><small>If you did not request this, ignore this email.</small></p>
+
+[SMTP-1] CLIENT -> SERVER:     
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: .
+
+[SMTP-2] SERVER -> CLIENT: 250 2.0.0 OK  1772582148 ffacd0b85a97d-439ae0e7abasm24669867f8f.23 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: QUIT
+
+[SMTP-2] SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-439ae0e7abasm24669867f8f.23 - gsmtp
+
+[SMTP-2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-485188422dbsm10047545e9.5 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: STARTTLS
+
+[SMTP-2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: AUTH LOGIN
+
+[SMTP-2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[SMTP-1] CLIENT -> SERVER: MAIL FROM:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-485188422dbsm10047545e9.5 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: RCPT TO:<adminone@vu.edu.au>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-485188422dbsm10047545e9.5 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: DATA
+
+[SMTP-2] SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-485188422dbsm10047545e9.5 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: Date: Wed, 4 Mar 2026 10:55:54 +1100
+
+[SMTP-1] CLIENT -> SERVER: To: Admin One <adminone@vu.edu.au>
+
+[SMTP-1] CLIENT -> SERVER: From: VU LostLink <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: Subject: VU LostLink - User Answered Verification
+
+[SMTP-1] CLIENT -> SERVER: Message-ID: <OfUfpkpySVhC5ysGznwRFqDvsAWfaG8C1btpsCbBfE@vulostlink.42web.io>
+
+[SMTP-1] CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[SMTP-1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[SMTP-1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER:               <h3>VU LostLink</h3>
+
+[SMTP-1] CLIENT -> SERVER:               <p>Hello Admin One,</p>
+
+[SMTP-1] CLIENT -> SERVER:               <p>A user has answered verification questions for:</p>
+
+[SMTP-1] CLIENT -> SERVER:               <p><b>Item:</b> regregh</p>
+
+[SMTP-1] CLIENT -> SERVER:               <p>Please login to Admin Dashboard to review and approve/reject.</p>
+
+[SMTP-1] CLIENT -> SERVER:             
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: .
+
+[SMTP-2] SERVER -> CLIENT: 250 2.0.0 OK  1772582156 5b1f17b1804b1-485188422dbsm10047545e9.5 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: QUIT
+
+[SMTP-2] SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-485188422dbsm10047545e9.5 - gsmtp
+
+[SMTP-2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-439b59723fesm19474198f8f.38 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: STARTTLS
+
+[SMTP-2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: AUTH LOGIN
+
+[SMTP-2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[SMTP-1] CLIENT -> SERVER: MAIL FROM:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-439b59723fesm19474198f8f.38 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: RCPT TO:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-439b59723fesm19474198f8f.38 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: DATA
+
+[SMTP-2] SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-439b59723fesm19474198f8f.38 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: Date: Wed, 4 Mar 2026 10:55:56 +1100
+
+[SMTP-1] CLIENT -> SERVER: To: LOSTLINK <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: From: VU LostLink <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: Subject: VU LostLink - User Answered Verification
+
+[SMTP-1] CLIENT -> SERVER: Message-ID: <bqOJABW26pBH8LGAir6WEt6Kt7CobK2J9uN61QhQ@vulostlink.42web.io>
+
+[SMTP-1] CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[SMTP-1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[SMTP-1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER:               <h3>VU LostLink</h3>
+
+[SMTP-1] CLIENT -> SERVER:               <p>Hello LOSTLINK,</p>
+
+[SMTP-1] CLIENT -> SERVER:               <p>A user has answered verification questions for:</p>
+
+[SMTP-1] CLIENT -> SERVER:               <p><b>Item:</b> regregh</p>
+
+[SMTP-1] CLIENT -> SERVER:               <p>Please login to Admin Dashboard to review and approve/reject.</p>
+
+[SMTP-1] CLIENT -> SERVER:             
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: .
+
+[SMTP-2] SERVER -> CLIENT: 250 2.0.0 OK  1772582158 ffacd0b85a97d-439b59723fesm19474198f8f.38 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: QUIT
+
+[SMTP-2] SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-439b59723fesm19474198f8f.38 - gsmtp
+
+[SMTP-2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-439abded86esm28004046f8f.6 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: STARTTLS
+
+[SMTP-2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: AUTH LOGIN
+
+[SMTP-2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[SMTP-1] CLIENT -> SERVER: MAIL FROM:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-439abded86esm28004046f8f.6 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: RCPT TO:<forpc5957@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-439abded86esm28004046f8f.6 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: DATA
+
+[SMTP-2] SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-439abded86esm28004046f8f.6 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: Date: Wed, 4 Mar 2026 11:02:51 +1100
+
+[SMTP-1] CLIENT -> SERVER: To: snoj <forpc5957@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: From: VU LostLink <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: Subject: VU LostLink - Rejected
+
+[SMTP-1] CLIENT -> SERVER: Message-ID: <LA40iwGinx5pPJGvch1EH77iG9xx8p1g4uE5eb5gI6g@vulostlink.42web.io>
+
+[SMTP-1] CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[SMTP-1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[SMTP-1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER:           <h3>VU LostLink</h3>
+
+[SMTP-1] CLIENT -> SERVER:           <p>Hello snoj,</p>
+
+[SMTP-1] CLIENT -> SERVER:           <p><b>Status:</b> REJECTED</p>
+
+[SMTP-1] CLIENT -> SERVER:           <p><b>Item:</b> regregh</p>
+
+[SMTP-1] CLIENT -> SERVER:           <p>Your claim/report for &#039;regregh&#039; has been rejected. If you believe this is incorrect, please contact admin.</p>
+
+[SMTP-1] CLIENT -> SERVER:           <p>Thank you.</p>
+
+[SMTP-1] CLIENT -> SERVER:         
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: .
+
+[SMTP-2] SERVER -> CLIENT: 250 2.0.0 OK  1772582572 ffacd0b85a97d-439abded86esm28004046f8f.6 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: QUIT
+
+[SMTP-2] SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-439abded86esm28004046f8f.6 - gsmtp
+
+[SMTP-2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-439abded86esm28091105f8f.6 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: STARTTLS
+
+[SMTP-2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: AUTH LOGIN
+
+[SMTP-2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[SMTP-1] CLIENT -> SERVER: MAIL FROM:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-439abded86esm28091105f8f.6 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: RCPT TO:<forpc5957@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-439abded86esm28091105f8f.6 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: DATA
+
+[SMTP-2] SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-439abded86esm28091105f8f.6 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: Date: Wed, 4 Mar 2026 11:21:56 +1100
+
+[SMTP-1] CLIENT -> SERVER: To: snoj <forpc5957@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: From: VU LostLink <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: Subject: VU LostLink OTP Code
+
+[SMTP-1] CLIENT -> SERVER: Message-ID: <0kJBr77SFbfr9jyCF3CU7ioEagwRo3rM1EFYQ6f1Y@vulostlink.42web.io>
+
+[SMTP-1] CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[SMTP-1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[SMTP-1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER:                   <h3>VU LostLink</h3>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>Your OTP code is:</p>
+
+[SMTP-1] CLIENT -> SERVER:                   <h2 style='letter-spacing:2px;'>782927</h2>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>This code expires in 5 minutes.</p>
+
+[SMTP-1] CLIENT -> SERVER:                 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: .
+
+[SMTP-2] SERVER -> CLIENT: 250 2.0.0 OK  1772583717 ffacd0b85a97d-439abded86esm28091105f8f.6 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: QUIT
+
+[SMTP-2] SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-439abded86esm28091105f8f.6 - gsmtp
+
+[SMTP-2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-485135d4228sm35618955e9.30 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: STARTTLS
+
+[SMTP-2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: AUTH LOGIN
+
+[SMTP-2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[SMTP-1] CLIENT -> SERVER: MAIL FROM:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-485135d4228sm35618955e9.30 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: RCPT TO:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-485135d4228sm35618955e9.30 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: DATA
+
+[SMTP-2] SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-485135d4228sm35618955e9.30 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: Date: Wed, 4 Mar 2026 11:24:00 +1100
+
+[SMTP-1] CLIENT -> SERVER: To: LOSTLINK <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: From: VU LostLink <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: Subject: VU LostLink OTP Code
+
+[SMTP-1] CLIENT -> SERVER: Message-ID: <QKumQgEBFLOWfItdBycH9KTrQ7r1pEt51Rtx7yBGY@vulostlink.42web.io>
+
+[SMTP-1] CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[SMTP-1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[SMTP-1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER:                   <h3>VU LostLink</h3>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>Your OTP code is:</p>
+
+[SMTP-1] CLIENT -> SERVER:                   <h2 style='letter-spacing:2px;'>545225</h2>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>This code expires in 5 minutes.</p>
+
+[SMTP-1] CLIENT -> SERVER:                 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: .
+
+[SMTP-2] SERVER -> CLIENT: 250 2.0.0 OK  1772583842 5b1f17b1804b1-485135d4228sm35618955e9.30 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: QUIT
+
+[SMTP-2] SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-485135d4228sm35618955e9.30 - gsmtp
+
+[SMTP-2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-439ae3f31dbsm25443749f8f.1 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: STARTTLS
+
+[SMTP-2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: AUTH LOGIN
+
+[SMTP-2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[SMTP-1] CLIENT -> SERVER: MAIL FROM:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-439ae3f31dbsm25443749f8f.1 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: RCPT TO:<weightsnwounds@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-439ae3f31dbsm25443749f8f.1 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: DATA
+
+[SMTP-2] SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-439ae3f31dbsm25443749f8f.1 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: Date: Wed, 4 Mar 2026 11:32:16 +1100
+
+[SMTP-1] CLIENT -> SERVER: To: Rohan <weightsnwounds@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: From: VU LostLink <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: Subject: VU LostLink OTP Code
+
+[SMTP-1] CLIENT -> SERVER: Message-ID: <gS95lCGnFbbFbG5dieHpaVMBmoCPoFd98Y16NJcYv90@vulostlink.42web.io>
+
+[SMTP-1] CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[SMTP-1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[SMTP-1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER:                   <h3>VU LostLink</h3>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>Your OTP code is:</p>
+
+[SMTP-1] CLIENT -> SERVER:                   <h2 style='letter-spacing:2px;'>216591</h2>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>This code expires in 5 minutes.</p>
+
+[SMTP-1] CLIENT -> SERVER:                 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: .
+
+[SMTP-2] SERVER -> CLIENT: 250 2.0.0 OK  1772584338 ffacd0b85a97d-439ae3f31dbsm25443749f8f.1 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: QUIT
+
+[SMTP-2] SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-439ae3f31dbsm25443749f8f.1 - gsmtp
+
+[SMTP-2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-485186747a0sm31972625e9.0 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: STARTTLS
+
+[SMTP-2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: AUTH LOGIN
+
+[SMTP-2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[SMTP-1] CLIENT -> SERVER: MAIL FROM:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-485186747a0sm31972625e9.0 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: RCPT TO:<forpc5957@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-485186747a0sm31972625e9.0 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: DATA
+
+[SMTP-2] SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-485186747a0sm31972625e9.0 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: Date: Wed, 4 Mar 2026 11:47:11 +1100
+
+[SMTP-1] CLIENT -> SERVER: To: snoj <forpc5957@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: From: VU LostLink <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: Subject: VU LostLink OTP Code
+
+[SMTP-1] CLIENT -> SERVER: Message-ID: <lqPOqwPk584kum4MT0ylufRPkIiT32olg0oTUVahwj8@vulostlink.42web.io>
+
+[SMTP-1] CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[SMTP-1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[SMTP-1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER:                   <h3>VU LostLink</h3>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>Your OTP code is:</p>
+
+[SMTP-1] CLIENT -> SERVER:                   <h2 style='letter-spacing:2px;'>937923</h2>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>This code expires in 5 minutes.</p>
+
+[SMTP-1] CLIENT -> SERVER:                 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: .
+
+[SMTP-2] SERVER -> CLIENT: 250 2.0.0 OK  1772585233 5b1f17b1804b1-485186747a0sm31972625e9.0 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: QUIT
+
+[SMTP-2] SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-485186747a0sm31972625e9.0 - gsmtp
+
+[SMTP-2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-485135d0232sm27316105e9.28 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: STARTTLS
+
+[SMTP-2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: AUTH LOGIN
+
+[SMTP-2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[SMTP-1] CLIENT -> SERVER: MAIL FROM:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-485135d0232sm27316105e9.28 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: RCPT TO:<forpc5957@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-485135d0232sm27316105e9.28 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: DATA
+
+[SMTP-2] SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-485135d0232sm27316105e9.28 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: Date: Wed, 4 Mar 2026 13:05:54 +1100
+
+[SMTP-1] CLIENT -> SERVER: To: snoj <forpc5957@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: From: VU LostLink <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: Subject: VU LostLink OTP Code
+
+[SMTP-1] CLIENT -> SERVER: Message-ID: <On0GnW6MQYt8EG0NmQz1YNx3oHpzss0GKp7sbHmSbss@vulostlink.42web.io>
+
+[SMTP-1] CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[SMTP-1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[SMTP-1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER:                   <h3>VU LostLink</h3>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>Your OTP code is:</p>
+
+[SMTP-1] CLIENT -> SERVER:                   <h2 style='letter-spacing:2px;'>230981</h2>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>This code expires in 5 minutes.</p>
+
+[SMTP-1] CLIENT -> SERVER:                 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: .
+
+[SMTP-2] SERVER -> CLIENT: 250 2.0.0 OK  1772589957 5b1f17b1804b1-485135d0232sm27316105e9.28 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: QUIT
+
+[SMTP-2] SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-485135d0232sm27316105e9.28 - gsmtp
+
+[SMTP-2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-485187b6fedsm19300965e9.1 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: STARTTLS
+
+[SMTP-2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: AUTH LOGIN
+
+[SMTP-2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[SMTP-1] CLIENT -> SERVER: MAIL FROM:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-485187b6fedsm19300965e9.1 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: RCPT TO:<forpc5957@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-485187b6fedsm19300965e9.1 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: DATA
+
+[SMTP-2] SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-485187b6fedsm19300965e9.1 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: Date: Wed, 4 Mar 2026 13:11:08 +1100
+
+[SMTP-1] CLIENT -> SERVER: To: snoj <forpc5957@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: From: VU LostLink <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: Subject: VU LostLink - Verification Questions
+
+[SMTP-1] CLIENT -> SERVER: Message-ID: <ve7rTyxFeDDgqPIsZLctTJkav6oLt3wGCJlT76DzFI@vulostlink.42web.io>
+
+[SMTP-1] CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[SMTP-1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[SMTP-1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER:       <h3>VU LostLink</h3>
+
+[SMTP-1] CLIENT -> SERVER:       <p>Hello snoj,</p>
+
+[SMTP-1] CLIENT -> SERVER:       <p>Admin has sent verification questions for <b>Laptop</b>.</p>
+
+[SMTP-1] CLIENT -> SERVER:       <p>Please login to answer them in your dashboard.</p>
+
+[SMTP-1] CLIENT -> SERVER:       <p><small>If you did not request this, ignore this email.</small></p>
+
+[SMTP-1] CLIENT -> SERVER:     
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: .
+
+[SMTP-2] SERVER -> CLIENT: 250 2.0.0 OK  1772590269 5b1f17b1804b1-485187b6fedsm19300965e9.1 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: QUIT
+
+[SMTP-2] SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-485187b6fedsm19300965e9.1 - gsmtp
+
+[SMTP-2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-4399c75a25dsm38086058f8f.21 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: STARTTLS
+
+[SMTP-2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: AUTH LOGIN
+
+[SMTP-2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[SMTP-1] CLIENT -> SERVER: MAIL FROM:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-4399c75a25dsm38086058f8f.21 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: RCPT TO:<adminone@vu.edu.au>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-4399c75a25dsm38086058f8f.21 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: DATA
+
+[SMTP-2] SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-4399c75a25dsm38086058f8f.21 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: Date: Wed, 4 Mar 2026 13:11:48 +1100
+
+[SMTP-1] CLIENT -> SERVER: To: Admin One <adminone@vu.edu.au>
+
+[SMTP-1] CLIENT -> SERVER: From: VU LostLink <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: Subject: VU LostLink - User Answered Verification
+
+[SMTP-1] CLIENT -> SERVER: Message-ID: <A75tA5HExY1o9UPljysxp4YkvbiLIELPQYKwmt2rAP4@vulostlink.42web.io>
+
+[SMTP-1] CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[SMTP-1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[SMTP-1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER:               <h3>VU LostLink</h3>
+
+[SMTP-1] CLIENT -> SERVER:               <p>Hello Admin One,</p>
+
+[SMTP-1] CLIENT -> SERVER:               <p>A user has answered verification questions for:</p>
+
+[SMTP-1] CLIENT -> SERVER:               <p><b>Item:</b> Laptop</p>
+
+[SMTP-1] CLIENT -> SERVER:               <p>Please login to Admin Dashboard to review and approve/reject.</p>
+
+[SMTP-1] CLIENT -> SERVER:             
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: .
+
+[SMTP-2] SERVER -> CLIENT: 250 2.0.0 OK  1772590312 ffacd0b85a97d-4399c75a25dsm38086058f8f.21 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: QUIT
+
+[SMTP-2] SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-4399c75a25dsm38086058f8f.21 - gsmtp
+
+[SMTP-2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-439c6129017sm2900161f8f.31 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: STARTTLS
+
+[SMTP-2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: AUTH LOGIN
+
+[SMTP-2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[SMTP-1] CLIENT -> SERVER: MAIL FROM:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-439c6129017sm2900161f8f.31 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: RCPT TO:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-439c6129017sm2900161f8f.31 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: DATA
+
+[SMTP-2] SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-439c6129017sm2900161f8f.31 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: Date: Wed, 4 Mar 2026 13:11:52 +1100
+
+[SMTP-1] CLIENT -> SERVER: To: LOSTLINK <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: From: VU LostLink <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: Subject: VU LostLink - User Answered Verification
+
+[SMTP-1] CLIENT -> SERVER: Message-ID: <yyjBGyccsHm9FYbflKbpAgvNjJt46qGa4jsidiRd1M@vulostlink.42web.io>
+
+[SMTP-1] CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[SMTP-1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[SMTP-1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER:               <h3>VU LostLink</h3>
+
+[SMTP-1] CLIENT -> SERVER:               <p>Hello LOSTLINK,</p>
+
+[SMTP-1] CLIENT -> SERVER:               <p>A user has answered verification questions for:</p>
+
+[SMTP-1] CLIENT -> SERVER:               <p><b>Item:</b> Laptop</p>
+
+[SMTP-1] CLIENT -> SERVER:               <p>Please login to Admin Dashboard to review and approve/reject.</p>
+
+[SMTP-1] CLIENT -> SERVER:             
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: .
+
+[SMTP-2] SERVER -> CLIENT: 250 2.0.0 OK  1772590314 ffacd0b85a97d-439c6129017sm2900161f8f.31 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: QUIT
+
+[SMTP-2] SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-439c6129017sm2900161f8f.31 - gsmtp
+
+[SMTP-2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-439b55df68dsm19559475f8f.26 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: STARTTLS
+
+[SMTP-2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: AUTH LOGIN
+
+[SMTP-2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[SMTP-1] CLIENT -> SERVER: MAIL FROM:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-439b55df68dsm19559475f8f.26 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: RCPT TO:<forpc5957@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-439b55df68dsm19559475f8f.26 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: DATA
+
+[SMTP-2] SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-439b55df68dsm19559475f8f.26 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: Date: Wed, 4 Mar 2026 13:12:26 +1100
+
+[SMTP-1] CLIENT -> SERVER: To: snoj <forpc5957@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: From: VU LostLink <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: Subject: VU LostLink - Approved
+
+[SMTP-1] CLIENT -> SERVER: Message-ID: <ZuJtI9fkM1zIHQWuqqfTjB8D92cYDnrfJYzAsmDzk@vulostlink.42web.io>
+
+[SMTP-1] CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[SMTP-1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[SMTP-1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER:           <h3>VU LostLink</h3>
+
+[SMTP-1] CLIENT -> SERVER:           <p>Hello snoj,</p>
+
+[SMTP-1] CLIENT -> SERVER:           <p><b>Status:</b> APPROVED</p>
+
+[SMTP-1] CLIENT -> SERVER:           <p><b>Item:</b> Laptop</p>
+
+[SMTP-1] CLIENT -> SERVER:           <p>Your LOST item claim for &#039;Laptop&#039; has been approved. Please collect your item at Level G (Uni Building).</p>
+
+[SMTP-1] CLIENT -> SERVER:           <p>Thank you.</p>
+
+[SMTP-1] CLIENT -> SERVER:         
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: .
+
+[SMTP-2] SERVER -> CLIENT: 250 2.0.0 OK  1772590348 ffacd0b85a97d-439b55df68dsm19559475f8f.26 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: QUIT
+
+[SMTP-2] SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-439b55df68dsm19559475f8f.26 - gsmtp
+
+[SMTP-2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-4851a8a9542sm196535e9.1 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: STARTTLS
+
+[SMTP-2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: AUTH LOGIN
+
+[SMTP-2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[SMTP-1] CLIENT -> SERVER: MAIL FROM:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-4851a8a9542sm196535e9.1 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: RCPT TO:<shitalpandey155@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-4851a8a9542sm196535e9.1 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: DATA
+
+[SMTP-2] SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-4851a8a9542sm196535e9.1 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: Date: Wed, 4 Mar 2026 14:48:58 +1100
+
+[SMTP-1] CLIENT -> SERVER: To: Shital Pandey <shitalpandey155@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: From: VU LostLink <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: Subject: VU LostLink OTP Code
+
+[SMTP-1] CLIENT -> SERVER: Message-ID: <ZnjISWckTFyCiSuof8dzjTDxsvxGj9XLScOgmNJKg@vulostlink.42web.io>
+
+[SMTP-1] CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[SMTP-1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[SMTP-1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER:                   <h3>VU LostLink</h3>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>Your OTP code is:</p>
+
+[SMTP-1] CLIENT -> SERVER:                   <h2 style='letter-spacing:2px;'>253435</h2>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>This code expires in 5 minutes.</p>
+
+[SMTP-1] CLIENT -> SERVER:                 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: .
+
+[SMTP-2] SERVER -> CLIENT: 250 2.0.0 OK  1772596142 5b1f17b1804b1-4851a8a9542sm196535e9.1 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: QUIT
+
+[SMTP-2] SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-4851a8a9542sm196535e9.1 - gsmtp
+
+[SMTP-2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-4851a8a44d2sm98275e9.4 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: STARTTLS
+
+[SMTP-2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: AUTH LOGIN
+
+[SMTP-2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[SMTP-1] CLIENT -> SERVER: MAIL FROM:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-4851a8a44d2sm98275e9.4 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: RCPT TO:<shitalpandey155@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-4851a8a44d2sm98275e9.4 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: DATA
+
+[SMTP-2] SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-4851a8a44d2sm98275e9.4 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: Date: Wed, 4 Mar 2026 14:49:01 +1100
+
+[SMTP-1] CLIENT -> SERVER: To: Shital Pandey <shitalpandey155@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: From: VU LostLink <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: Subject: VU LostLink OTP Code
+
+[SMTP-1] CLIENT -> SERVER: Message-ID: <ms7Jgi9xNt6XlpBAvEpfePrcy5Bwy1k1JrV8wGQM@vulostlink.42web.io>
+
+[SMTP-1] CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[SMTP-1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[SMTP-1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER:                   <h3>VU LostLink</h3>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>Your OTP code is:</p>
+
+[SMTP-1] CLIENT -> SERVER:                   <h2 style='letter-spacing:2px;'>439401</h2>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>This code expires in 5 minutes.</p>
+
+[SMTP-1] CLIENT -> SERVER:                 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: .
+
+[SMTP-2] SERVER -> CLIENT: 250 2.0.0 OK  1772596143 5b1f17b1804b1-4851a8a44d2sm98275e9.4 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: QUIT
+
+[SMTP-2] SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-4851a8a44d2sm98275e9.4 - gsmtp
+
+[SMTP-2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-4851884224fsm19103945e9.4 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: STARTTLS
+
+[SMTP-2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: AUTH LOGIN
+
+[SMTP-2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[SMTP-1] CLIENT -> SERVER: MAIL FROM:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-4851884224fsm19103945e9.4 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: RCPT TO:<shitalpandey155@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-4851884224fsm19103945e9.4 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: DATA
+
+[SMTP-2] SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-4851884224fsm19103945e9.4 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: Date: Wed, 4 Mar 2026 14:49:02 +1100
+
+[SMTP-1] CLIENT -> SERVER: To: Shital Pandey <shitalpandey155@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: From: VU LostLink <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: Subject: VU LostLink OTP Code
+
+[SMTP-1] CLIENT -> SERVER: Message-ID: <NSJmxjtW6JOhAgKKnRUNpgEmsvH7IcTvqtOU9E7H2I@vulostlink.42web.io>
+
+[SMTP-1] CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[SMTP-1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[SMTP-1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER:                   <h3>VU LostLink</h3>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>Your OTP code is:</p>
+
+[SMTP-1] CLIENT -> SERVER:                   <h2 style='letter-spacing:2px;'>421990</h2>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>This code expires in 5 minutes.</p>
+
+[SMTP-1] CLIENT -> SERVER:                 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: .
+
+[SMTP-2] SERVER -> CLIENT: 250 2.0.0 OK  1772596144 5b1f17b1804b1-4851884224fsm19103945e9.4 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: QUIT
+
+[SMTP-2] SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-4851884224fsm19103945e9.4 - gsmtp
+
+[SMTP-2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-4851a82dac3sm578815e9.0 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: STARTTLS
+
+[SMTP-2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: AUTH LOGIN
+
+[SMTP-2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[SMTP-1] CLIENT -> SERVER: MAIL FROM:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-4851a82dac3sm578815e9.0 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: RCPT TO:<shitalpandey155@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-4851a82dac3sm578815e9.0 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: DATA
+
+[SMTP-2] SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-4851a82dac3sm578815e9.0 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: Date: Wed, 4 Mar 2026 14:51:42 +1100
+
+[SMTP-1] CLIENT -> SERVER: To: Shital Pandey <shitalpandey155@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: From: VU LostLink <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: Subject: VU LostLink OTP Code
+
+[SMTP-1] CLIENT -> SERVER: Message-ID: <pwFUKkbiWni9s9ennPvoKfoB1r7I7PBfYFgu9zIvEE@vulostlink.42web.io>
+
+[SMTP-1] CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[SMTP-1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[SMTP-1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER:                   <h3>VU LostLink</h3>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>Your OTP code is:</p>
+
+[SMTP-1] CLIENT -> SERVER:                   <h2 style='letter-spacing:2px;'>480100</h2>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>This code expires in 5 minutes.</p>
+
+[SMTP-1] CLIENT -> SERVER:                 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: .
+
+[SMTP-2] SERVER -> CLIENT: 250 2.0.0 OK  1772596305 5b1f17b1804b1-4851a82dac3sm578815e9.0 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: QUIT
+
+[SMTP-2] SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-4851a82dac3sm578815e9.0 - gsmtp
+
+[SMTP-2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-485188422dbsm20916935e9.5 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: STARTTLS
+
+[SMTP-2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: AUTH LOGIN
+
+[SMTP-2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[SMTP-1] CLIENT -> SERVER: MAIL FROM:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-485188422dbsm20916935e9.5 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: RCPT TO:<shitalpandey155@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-485188422dbsm20916935e9.5 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: DATA
+
+[SMTP-2] SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-485188422dbsm20916935e9.5 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: Date: Wed, 4 Mar 2026 14:51:45 +1100
+
+[SMTP-1] CLIENT -> SERVER: To: Shital Pandey <shitalpandey155@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: From: VU LostLink <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: Subject: VU LostLink OTP Code
+
+[SMTP-1] CLIENT -> SERVER: Message-ID: <LI5zfuydLZduDmAcHwTNHC6E9m6k9K8Bch9goFM5Jg@vulostlink.42web.io>
+
+[SMTP-1] CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[SMTP-1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[SMTP-1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER:                   <h3>VU LostLink</h3>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>Your OTP code is:</p>
+
+[SMTP-1] CLIENT -> SERVER:                   <h2 style='letter-spacing:2px;'>932664</h2>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>This code expires in 5 minutes.</p>
+
+[SMTP-1] CLIENT -> SERVER:                 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: .
+
+[SMTP-2] SERVER -> CLIENT: 250 2.0.0 OK  1772596306 5b1f17b1804b1-485188422dbsm20916935e9.5 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: QUIT
+
+[SMTP-2] SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-485188422dbsm20916935e9.5 - gsmtp
+
+[SMTP-2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-439af926c53sm28966228f8f.8 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: STARTTLS
+
+[SMTP-2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: AUTH LOGIN
+
+[SMTP-2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[SMTP-1] CLIENT -> SERVER: MAIL FROM:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-439af926c53sm28966228f8f.8 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: RCPT TO:<shitalpandey155@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-439af926c53sm28966228f8f.8 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: DATA
+
+[SMTP-2] SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-439af926c53sm28966228f8f.8 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: Date: Wed, 4 Mar 2026 14:51:47 +1100
+
+[SMTP-1] CLIENT -> SERVER: To: Shital Pandey <shitalpandey155@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: From: VU LostLink <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: Subject: VU LostLink OTP Code
+
+[SMTP-1] CLIENT -> SERVER: Message-ID: <cLdzheZwaE4CPoQPTE4ObXBeLccwRQ5E27kRcDxoJC4@vulostlink.42web.io>
+
+[SMTP-1] CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[SMTP-1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[SMTP-1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER:                   <h3>VU LostLink</h3>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>Your OTP code is:</p>
+
+[SMTP-1] CLIENT -> SERVER:                   <h2 style='letter-spacing:2px;'>762709</h2>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>This code expires in 5 minutes.</p>
+
+[SMTP-1] CLIENT -> SERVER:                 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: .
+
+[SMTP-2] SERVER -> CLIENT: 250 2.0.0 OK  1772596308 ffacd0b85a97d-439af926c53sm28966228f8f.8 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: QUIT
+
+[SMTP-2] SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-439af926c53sm28966228f8f.8 - gsmtp
+
+[SMTP-2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-439b0549600sm25011926f8f.35 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: STARTTLS
+
+[SMTP-2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: AUTH LOGIN
+
+[SMTP-2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[SMTP-1] CLIENT -> SERVER: MAIL FROM:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-439b0549600sm25011926f8f.35 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: RCPT TO:<shitalpandey155@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-439b0549600sm25011926f8f.35 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: DATA
+
+[SMTP-2] SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-439b0549600sm25011926f8f.35 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: Date: Wed, 4 Mar 2026 14:51:48 +1100
+
+[SMTP-1] CLIENT -> SERVER: To: Shital Pandey <shitalpandey155@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: From: VU LostLink <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: Subject: VU LostLink OTP Code
+
+[SMTP-1] CLIENT -> SERVER: Message-ID: <Zes3d22mUE35vqaFbeev4oKJviopTRg4GP7xxi3Vk@vulostlink.42web.io>
+
+[SMTP-1] CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[SMTP-1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[SMTP-1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER:                   <h3>VU LostLink</h3>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>Your OTP code is:</p>
+
+[SMTP-1] CLIENT -> SERVER:                   <h2 style='letter-spacing:2px;'>801500</h2>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>This code expires in 5 minutes.</p>
+
+[SMTP-1] CLIENT -> SERVER:                 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: .
+
+[SMTP-2] SERVER -> CLIENT: 250 2.0.0 OK  1772596309 ffacd0b85a97d-439b0549600sm25011926f8f.35 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: QUIT
+
+[SMTP-2] SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-439b0549600sm25011926f8f.35 - gsmtp
+
+[SMTP-2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-4399c75a25dsm38684769f8f.21 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: STARTTLS
+
+[SMTP-2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: AUTH LOGIN
+
+[SMTP-2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[SMTP-1] CLIENT -> SERVER: MAIL FROM:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-4399c75a25dsm38684769f8f.21 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: RCPT TO:<forpc5957@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-4399c75a25dsm38684769f8f.21 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: DATA
+
+[SMTP-2] SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-4399c75a25dsm38684769f8f.21 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: Date: Wed, 4 Mar 2026 15:18:41 +1100
+
+[SMTP-1] CLIENT -> SERVER: To: snoj <forpc5957@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: From: VU LostLink <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: Subject: VU LostLink OTP Code
+
+[SMTP-1] CLIENT -> SERVER: Message-ID: <yvTXUDrCPAELqonDWYzBU4DvyupQm4baiCDPgSVCRWk@vulostlink.42web.io>
+
+[SMTP-1] CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[SMTP-1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[SMTP-1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER:                   <h3>VU LostLink</h3>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>Your OTP code is:</p>
+
+[SMTP-1] CLIENT -> SERVER:                   <h2 style='letter-spacing:2px;'>613479</h2>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>This code expires in 5 minutes.</p>
+
+[SMTP-1] CLIENT -> SERVER:                 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: .
+
+[SMTP-2] SERVER -> CLIENT: 250 2.0.0 OK  1772597924 ffacd0b85a97d-4399c75a25dsm38684769f8f.21 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: QUIT
+
+[SMTP-2] SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-4399c75a25dsm38684769f8f.21 - gsmtp
+
+[SMTP-2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-4851a895572sm920865e9.13 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: STARTTLS
+
+[SMTP-2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: AUTH LOGIN
+
+[SMTP-2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[SMTP-1] CLIENT -> SERVER: MAIL FROM:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-4851a895572sm920865e9.13 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: RCPT TO:<bibhushanmjn@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-4851a895572sm920865e9.13 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: DATA
+
+[SMTP-2] SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-4851a895572sm920865e9.13 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: Date: Wed, 4 Mar 2026 15:26:34 +1100
+
+[SMTP-1] CLIENT -> SERVER: To: jkrvp <bibhushanmjn@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: From: VU LostLink <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: Subject: VU LostLink OTP Code
+
+[SMTP-1] CLIENT -> SERVER: Message-ID: <0y7HWTZcz6mfPWAOczqiUzOXZ72DLKm173BOKw8VJnc@vulostlink.42web.io>
+
+[SMTP-1] CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[SMTP-1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[SMTP-1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER:                   <h3>VU LostLink</h3>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>Your OTP code is:</p>
+
+[SMTP-1] CLIENT -> SERVER:                   <h2 style='letter-spacing:2px;'>652159</h2>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>This code expires in 5 minutes.</p>
+
+[SMTP-1] CLIENT -> SERVER:                 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: .
+
+[SMTP-2] SERVER -> CLIENT: 250 2.0.0 OK  1772598395 5b1f17b1804b1-4851a895572sm920865e9.13 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: QUIT
+
+[SMTP-2] SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-4851a895572sm920865e9.13 - gsmtp
+
+[SMTP-2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-4851acfbd1bsm281135e9.6 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: STARTTLS
+
+[SMTP-2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: AUTH LOGIN
+
+[SMTP-2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[SMTP-1] CLIENT -> SERVER: MAIL FROM:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-4851acfbd1bsm281135e9.6 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: RCPT TO:<orlyvolodarsky@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-4851acfbd1bsm281135e9.6 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: DATA
+
+[SMTP-2] SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-4851acfbd1bsm281135e9.6 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: Date: Wed, 4 Mar 2026 17:02:23 +1100
+
+[SMTP-1] CLIENT -> SERVER: To: Orli volo <orlyvolodarsky@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: From: VU LostLink <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: Subject: VU LostLink OTP Code
+
+[SMTP-1] CLIENT -> SERVER: Message-ID: <UB0fATzZvx4XWVZD3FFNVRwsALTzUr1G3ZRh3jOY@vulostlink.42web.io>
+
+[SMTP-1] CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[SMTP-1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[SMTP-1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER:                   <h3>VU LostLink</h3>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>Your OTP code is:</p>
+
+[SMTP-1] CLIENT -> SERVER:                   <h2 style='letter-spacing:2px;'>340531</h2>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>This code expires in 5 minutes.</p>
+
+[SMTP-1] CLIENT -> SERVER:                 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: .
+
+[SMTP-2] SERVER -> CLIENT: 250 2.0.0 OK  1772604145 5b1f17b1804b1-4851acfbd1bsm281135e9.6 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: QUIT
+
+[SMTP-2] SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-4851acfbd1bsm281135e9.6 - gsmtp
+
+[SMTP-2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-439b3cc2e65sm36159649f8f.2 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: STARTTLS
+
+[SMTP-2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: AUTH LOGIN
+
+[SMTP-2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[SMTP-1] CLIENT -> SERVER: MAIL FROM:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-439b3cc2e65sm36159649f8f.2 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: RCPT TO:<forpc5957@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-439b3cc2e65sm36159649f8f.2 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: DATA
+
+[SMTP-2] SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-439b3cc2e65sm36159649f8f.2 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: Date: Fri, 6 Mar 2026 03:14:53 +1100
+
+[SMTP-1] CLIENT -> SERVER: To: snoj <forpc5957@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: From: VU LostLink <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: Subject: VU LostLink OTP Code
+
+[SMTP-1] CLIENT -> SERVER: Message-ID: <b3DZM9eYUwYQmUbLIvhpvJ5go1sNvCHbtfR07Gdbo@vulostlink.42web.io>
+
+[SMTP-1] CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[SMTP-1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[SMTP-1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER:                   <h3>VU LostLink</h3>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>Your OTP code is:</p>
+
+[SMTP-1] CLIENT -> SERVER:                   <h2 style='letter-spacing:2px;'>222819</h2>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>This code expires in 5 minutes.</p>
+
+[SMTP-1] CLIENT -> SERVER:                 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: .
+
+[SMTP-2] SERVER -> CLIENT: 250 2.0.0 OK  1772727294 ffacd0b85a97d-439b3cc2e65sm36159649f8f.2 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: QUIT
+
+[SMTP-2] SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-439b3cc2e65sm36159649f8f.2 - gsmtp
+
+[SMTP-2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d75a77b69052e-50744aef9e0sm173179371cf.30 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: STARTTLS
+
+[SMTP-2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[SMTP-1] CLIENT -> SERVER: EHLO vulostlink.42web.io
+
+[SMTP-2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [185.27.134.38]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[SMTP-1] CLIENT -> SERVER: AUTH LOGIN
+
+[SMTP-2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[SMTP-1] CLIENT -> SERVER: [credentials hidden]
+[SMTP-2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[SMTP-1] CLIENT -> SERVER: MAIL FROM:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.0 OK d75a77b69052e-50744aef9e0sm173179371cf.30 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: RCPT TO:<lostlink.vu@gmail.com>
+
+[SMTP-2] SERVER -> CLIENT: 250 2.1.5 OK d75a77b69052e-50744aef9e0sm173179371cf.30 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: DATA
+
+[SMTP-2] SERVER -> CLIENT: 354 Go ahead d75a77b69052e-50744aef9e0sm173179371cf.30 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: Date: Fri, 6 Mar 2026 03:26:17 +1100
+
+[SMTP-1] CLIENT -> SERVER: To: LOSTLINK <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: From: VU LostLink <lostlink.vu@gmail.com>
+
+[SMTP-1] CLIENT -> SERVER: Subject: VU LostLink OTP Code
+
+[SMTP-1] CLIENT -> SERVER: Message-ID: <dxXnsChCK6FYDmbz45OUlUohwoo007SJA7blfqEwS0@vulostlink.42web.io>
+
+[SMTP-1] CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[SMTP-1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[SMTP-1] CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER:                   <h3>VU LostLink</h3>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>Your OTP code is:</p>
+
+[SMTP-1] CLIENT -> SERVER:                   <h2 style='letter-spacing:2px;'>369880</h2>
+
+[SMTP-1] CLIENT -> SERVER:                   <p>This code expires in 5 minutes.</p>
+
+[SMTP-1] CLIENT -> SERVER:                 
+
+[SMTP-1] CLIENT -> SERVER: 
+
+[SMTP-1] CLIENT -> SERVER: .
+
+[SMTP-2] SERVER -> CLIENT: 250 2.0.0 OK  1772727980 d75a77b69052e-50744aef9e0sm173179371cf.30 - gsmtp
+
+[SMTP-1] CLIENT -> SERVER: QUIT
+
+[SMTP-2] SERVER -> CLIENT: 221 2.0.0 closing connection d75a77b69052e-50744aef9e0sm173179371cf.30 - gsmtp
+
